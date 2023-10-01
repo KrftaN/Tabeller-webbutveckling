@@ -1,0 +1,25 @@
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 400px;
+	height: 100px;
+}
+
+.röd {
+	background-color: #cc0000;
+}
+.blå {
+	background-color: #4a86e8;
+}
+.gul {
+	background-color: #ffff00;
+}
+.grön {
+	background-color: #00ff00;
+}
+
+.svart {
+	background-color: black;
+}

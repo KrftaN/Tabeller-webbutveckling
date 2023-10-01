@@ -1,0 +1,26 @@
+.left-align {
+	text-align: left;
+}
+
+.right-align {
+	text-align: right;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 35vw;
+	text-align: center;
+}
+
+tr:nth-child(even):not(:first-child) {
+	color: black;
+	background-color: gold;
+}
+
+tr:nth-child(odd):not(:first-child) {
+	color: white;
+	background-color: red;
+}
